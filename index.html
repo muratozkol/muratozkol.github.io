@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murat Ozkol | Landing Progress</title>
+    <meta name="keywords" content="Murat Ozkol | Landing Progress"> 
+    <!-- google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:600px" href="css/mobile.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <style>
+        *{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+html{
+    font-family: "Open Sans", "sans-serif";
+}
+/* navbar section */
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: #8c76b1;
+    border-radius: 8px;
+}
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img{
+    max-width: 30%;
+    height: auto;
+    border-radius: 100%;
+}
+#home div{
+    text-align: center;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/* training */
+#training{
+    color: #fff;
+    padding: 1rem;
+    
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+#training .items .item:hover{
+    color: rgb(169, 77, 77);
+    opacity: 0.9;
+}
+
+#training .items .item p{
+    position: relative;
+    left: 5px;
+}
+.footer {
+    background-color: #414141;
+    width: 100%;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+    width: 33%;
+    padding-right: 15px;
+}
+
+.footer .about {
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer .about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .icons {
+    margin-top: 25px;
+}
+
+.footer .icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer .footer-center {
+    width: 50%;
+}
+
+.footer .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer .footer-center p a {
+    color: #0099ff;
+    text-decoration: none;
+}
+
+
+.footer .footer-right {
+width: 100%;
+}
+
+
+/* Text */
+
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+
+.heading-medium{
+    font-size: 1.5rem;
+}
+
+.heading-big{
+    font-size: 1.75rem;
+}
+
+/* colors */
+
+.bg-dark-blue{
+    background: #3c2a45;
+}
+
+.bg-light-blue{
+    background: #336ea2;
+}
+/* Butonlar */
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 6px;
+    letter-spacing: 0.3px;
+}
+.btn-primary{
+    background: #336ea2;
+}
+.btn-primary:hover{
+    color: #336ea2;
+    background: #fff;
+    border: 0.5px solid #336ea2;
+}
+.btn-dark{
+    background: #333;
+
+}
+.btn-dark:hover{
+    color: #333;
+    background: white;
+    border: 0.5px solid rgb(167, 64, 64)
+    
+}
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+
+/* conteiner */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+
+
+
+}
+.footer .icons{
+    align-self: center;
+}
+    </style>
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="text-center"; >MURAT ÖZKOL</h1>
+    
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#training">Eğitim</a></li>
+                    <li><a href="#ozgecmis">Özgeçmiş</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+    
+            </nav>
+        </div>
+        
+    </header>
+    
+    <section id="home">
+        <img src="images/murat3.jpg" alt="Murat Özkol" width="230px">
+
+    <div class="name">
+        <h2 class="heading-big">Murat Özkol</h2>
+        <p>Computer Programmer | Associate student</p>
+    </div>
+    <a href="#ozgecmis" class="btn btn-dark">Özgeçmişe Git</a>
+
+    </section>
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Eğitim Geçmişi</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Languages</h3>
+                <p>-Turkish<br>-English</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Programlama Dilleri</h3>
+                <p>-Python(Basic)<br>-C
+                    (Basic)<br>C#(Intermediate)<br>-Java(Basic)
+                </p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Eğitimler</h3>
+                <p>-Samsun Çarşamba High School<br><i>(2015-2019)</i><br><br>
+                    -Osmangazi Üniversitesi Meslek Yüksek Okulu<br><i>(2020-2022)</i></p>
+            </article>
+        </div>
+    </section>
+    <section id="ozgecmis">
+        <h3 class="text-center heading-medium">Hakkımda</h3><br><br><br>
+        <div class="container">
+            <div class="courses">
+                <p><i> Murat, 2001 yılında Samsun'un Çarşamba ilçesinde doğdum. Teknolojiye hep merakım olmuştur ve küçüklükten beri yazılımcı olmak istemişimdir. Bu sebeple Osmangazi Üniversitesinde Bilgisayar Programcılığı bölümünü okumaya karar verdim, öğrenimime Bilgisayar Mühendisliği bölümünde devam edeceğim ve iyi bir mühendis olacağım.</i></p><br><br><br><br><br><br>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-left col-md-4 col-sm-6">
+        <p class="about">
+            <span>Bana Ulaşın</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quae laudantium aliquid magnam ad molestias quo dignissimos. Id beatae, explicabo odio delectus maiores fugiat velit iure dicta libero qui voluptatibus!
+        </p>
+        <div class="icons" id="iletisim">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        </div>
+        <div class="footer-center col-md-4 col-sm-6">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>00555</span> Samsun, Carsamba</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p> (+90) 507 014 6620</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="#">murat.m.mz17@gmail.com</a></p>
+        </div>
+        </div>
+        <div class="footer-right col-md-4 col-sm-6">
+        </div>
+    </footer>
+
+
+</body>
+</html>
